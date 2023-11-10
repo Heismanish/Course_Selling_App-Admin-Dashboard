@@ -13,30 +13,27 @@
 
 3. Property 'sendStatus' does not exist on type 'Response'.
    =>
-
-```typescript
-import { Request, Response, NextFunction } from "express";
-```
+	```typescript
+	import { Request, Response, NextFunction } from "express";
+	```
 
 5. Property 'authorization' does not exist on type 'Headers'.
    =>
-
-```typescript
-import { Request, Response, NextFunction } from "express";
-```
+	```typescript
+	import { Request, Response, NextFunction } from "express";
+	```
 
 6. Problem with id being a string `jwtAdminAuthentication`.
    =>
-
-```typescript
-if (typeof user === "string") {
-	return res.sendStatus(403);
-}
-if (user) {
-	req.headers.user = user.id; // source
-	next();
-}
-```
+	```typescript
+	if (typeof user === "string") {
+		return res.sendStatus(403);
+	}
+	if (user) {
+		req.headers.user = user.id; // source
+		next();
+	}
+	```
 
 ## In `admin.ts`
 

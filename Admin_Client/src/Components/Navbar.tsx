@@ -31,8 +31,8 @@ function Navbar() {
 					loading="lazy"
 					className="w-8 md:hidden"
 				/>
-				<h1 className="text-3xl text-gray-200 font-semibold hidden md:block">
-					Coursezod
+				<h1 className="uppercase text-3xl text-gray-200 font-bold hidden md:block">
+					Ohara
 				</h1>
 			</Link>
 

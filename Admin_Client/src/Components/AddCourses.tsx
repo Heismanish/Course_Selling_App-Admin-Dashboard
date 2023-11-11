@@ -60,13 +60,14 @@ function AddCourses() {
 				published: true,
 			});
 		} else {
-			alert("error aagya bhai");
-		}
+			console.log(formData)
+console.log("Couldn't complete your request")		}
 	}
 
+
 	return (
-		<div className="mx-auto  ">
-			<main className="flex flex-col justify-center items-center mt-44">
+		<div className="mx-auto ">
+			<main className="flex flex-col items-center md:mt-24 mt-16">
 				<div>
 					<h2 className="text-4xl font-semibold mb-6 text-gray-200">
 						Add Course{" "}

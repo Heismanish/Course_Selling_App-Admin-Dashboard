@@ -11,14 +11,12 @@ function HomePage() {
 		<div className=" grid mt-12 md:mt-44 grid-cols-1 md:grid-cols-2 md:gap-x-24 lg:gap-x-64 mx-8 md:mx-12 lg:mx-auto lg:px-8 max-w-screen-xl     ">
 			<main className=" my-auto flex flex-col gap-4">
 				<h1 className="text-5xl drop-shadow-lg shadow-white font-bold mb-2 text-gray-50">
-					Welcome to Coursezod
+					Welcome to Ohara!!
 				</h1>
 				<p className="font-semibold text-gray-200 drop-shadow-md shadow-white   mb-4">
 					Your gateway to a world of learning and growth. Our mission is to
 					empower individuals with knowledge and skills that pave the way for
-					success. Whether you're a curious beginner or an experienced
-					professional, Coursezod offers a diverse range of courses tailored to
-					your interests and goals.
+					success. 
 				</p>
 				{userEmail ? (
 					<div className="flex gap-2">
